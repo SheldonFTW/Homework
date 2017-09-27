@@ -2,15 +2,27 @@ package info.runningstream;
 
 public class Runingstream {
 
+	 static USD usd = new USD();
+	 static EUR eur = new EUR();
+	 static RUB rub = new RUB();
+		
 	public static void main(String[] args) {
-		String U = "USD";
-		String E = "EUR";
-		String R = "RUB";
-		int u = 25;
-		int e = 30;
-		double r = 0.45;
-		System.out.print("Курс валют на сегодня: "+U+" "+u+", "+E+" "+e+", "+R+" "+r);		
 				
+	usd.Currency = "USD";
+	usd.Rate = 25.5;
+	usd.Symbol = "$";
+	
+	eur.Currency = "EUR";
+	eur.Rate = 30;
+	eur.Symbol = "E";
+	
+	rub.Currency = "RUB";
+	rub.Rate = 1.22;
+	rub.Symbol = "R";
+	
+	
+		System.out.print(usd+ " ; " + eur + " ; " + rub);
+	
 
 	}
 
