@@ -2,12 +2,13 @@ package info.runningstream;
 
 public class Runingstream {
 
-	 static USD usd = new USD();
-	 static EUR eur = new EUR();
-	 static RUB rub = new RUB();
-		
+	static USD usd = new USD();
+	static EUR eur = new EUR();
+	static RUB rub = new RUB();
+	
 	public static void main(String[] args) {
-				
+					 
+		 
 	usd.Currency = "USD";
 	usd.Rate = 25.5;
 	usd.Symbol = "$";
